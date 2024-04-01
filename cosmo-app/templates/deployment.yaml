@@ -17,7 +17,7 @@ spec:
       serviceAccountName: nginx-sa
       containers:
         - name: nginx
-          image: us-central1-docker.pkg.dev/proven-dryad-417822/hello-app/hello-app:v2
+          image: us-central1-docker.pkg.dev/august-journey-417818/app-chart/app-chart:v1
           ports:
             - name: http
               containerPort: 80
