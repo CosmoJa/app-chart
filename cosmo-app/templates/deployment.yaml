@@ -17,7 +17,7 @@ spec:
       serviceAccountName: nginx-sa
       containers:
         - name: nginx
-          image: us-central1-docker.pkg.dev/august-journey-417818/app-chart/app-chart:v1
+          image: us-central1-docker.pkg.dev/august-journey-417818/app-chart/cosmo-doc:v1
           ports:
             - name: http
               containerPort: 80
